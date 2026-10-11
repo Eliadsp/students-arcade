@@ -7,7 +7,7 @@ APP_NAME = "Guessing Game"
 def run():
     target = random.randint(1, 10)
 
-    print("Guess a number from 1 to 10.")
+    print("Welcome Everyone!\nGuess a number from 1 to 10.")
 
     while True:
         response = input("Your guess: ")
